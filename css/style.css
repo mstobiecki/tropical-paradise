@@ -43,6 +43,13 @@ body {
           transform: skew(45deg);
 }
 
+@media (min-width: 776px) {
+  .white-block {
+    height: 50px;
+    width: 40%;
+  }
+}
+
 .button-special-animation {
   position: relative;
   -webkit-transition: background-color 0.3s;
@@ -96,7 +103,7 @@ body {
   height: 75vh;
   text-align: center;
   color: #fff;
-  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("../img/header-mini.jpg");
+  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("../../img/header-mini.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -105,21 +112,21 @@ body {
 
 .header__heading {
   margin-bottom: 0.3em;
-  font-size: 3.7rem;
+  font-size: 4.5rem;
   font-weight: 300;
   font-family: 'Dancing Script', cursive;
 }
 
 .header__text {
   margin-bottom: 1.5em;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 .header__button {
   padding: 0.5em 1em;
   background-color: #fff;
   border-radius: 8px;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #2e2e2e;
   text-transform: uppercase;
   text-decoration: none;
@@ -220,5 +227,12 @@ body {
   width: 30%;
   -webkit-transition-delay: 0.1s;
           transition-delay: 0.1s;
+}
+
+@media (min-width: 992px) {
+  .navigation__burger {
+    top: 50px;
+    right: 50px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

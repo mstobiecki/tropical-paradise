@@ -48,3 +48,12 @@
 		}
 	}
 }
+
+@media (min-width: 992px) {
+	.navigation {
+		&__burger {
+			top: 50px;
+			right: 50px;
+		}
+	}
+}

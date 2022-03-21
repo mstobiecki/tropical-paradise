@@ -38,6 +38,13 @@ body {
 	}
 }
 
+@media (min-width: 776px) {
+	.white-block {
+		height: 50px;
+		width: 40%;
+	}
+}
+
 .button-special-animation {
 	position: relative;
 	transition: background-color 0.3s;
