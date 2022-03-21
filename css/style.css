@@ -141,6 +141,18 @@ body {
   }
 }
 
+@media (min-width: 776px) {
+  .header__heading {
+    font-size: 5.5rem;
+  }
+  .header__text {
+    font-size: 1.8rem;
+  }
+  .header__button {
+    font-size: 1.7rem;
+  }
+}
+
 .navigation__burger {
   position: fixed;
   top: 20px;

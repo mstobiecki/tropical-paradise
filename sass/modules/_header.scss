@@ -47,3 +47,16 @@
 		}
 	}
 }
+@media (min-width: 776px) {
+	.header {
+		&__heading {
+			font-size: 5.5rem;
+		}
+		&__text {
+			font-size: 1.8rem;
+		}
+		&__button {
+			font-size: 1.7rem;
+		}
+	}
+}
