@@ -13,6 +13,7 @@
 	&__heading {
 		margin-bottom: 0.3em;
 		font-size: 3.7rem;
+		font-weight: 300;
 		font-family: 'Dancing Script', cursive;
 	}
 	&__text {
@@ -29,6 +30,20 @@
 		text-decoration: none;
 		&::before {
 			background-color: $secondary-color;
+		}
+	}
+}
+
+@media (min-width: 576px) {
+	.header {
+		&__heading {
+			font-size: 5.3rem;
+		}
+		&__text {
+			font-size: 1.7rem;
+		}
+		&__button {
+			font-size: 1.6rem;
 		}
 	}
 }
