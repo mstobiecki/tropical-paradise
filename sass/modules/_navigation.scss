@@ -1,0 +1,49 @@
+.navigation {
+	&__burger {
+		position: fixed;
+		top: 20px;
+		right: 20px;
+		padding: 1em;
+		border: 1px solid transparent;
+		background: none;
+		z-index: 1000;
+		cursor: pointer;
+		&:focus {
+			border: 1px solid rgba(255, 255, 255, 0.5);
+			border-radius: 8px;
+		}
+		&:hover {
+			.navigation__burger-box-bars::after,
+			.navigation__burger-box-bars::before {
+				width: 100%;
+			}
+		}
+		&-box {
+			position: relative;
+			width: 40px;
+			height: 30px;
+			&-bars,
+			&-bars::after,
+			&-bars::before {
+				position: absolute;
+				right: 0;
+				height: 3px;
+				content: '';
+				background-color: $pure-white;
+				transition: width, 0.3s;
+			}
+			&-bars {
+				width: 100%;
+				&::after {
+					top: 13px;
+					width: 60%;
+				}
+				&::before {
+					top: 27px;
+					width: 30%;
+					transition-delay: 0.1s;
+				}
+			}
+		}
+	}
+}
