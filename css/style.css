@@ -126,7 +126,7 @@ body {
 }
 
 .header__button::before {
-  background-color: #164dcc;
+  background-color: #eee;
 }
 
 @media (min-width: 576px) {
@@ -150,6 +150,21 @@ body {
   }
   .header__button {
     font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("../../img/header-big.jpg");
+  }
+  .header__heading {
+    font-size: 7rem;
+  }
+  .header__text {
+    font-size: 2rem;
+  }
+  .header__button {
+    font-size: 1.8rem;
   }
 }
 

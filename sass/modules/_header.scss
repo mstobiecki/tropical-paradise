@@ -29,7 +29,7 @@
 		text-transform: uppercase;
 		text-decoration: none;
 		&::before {
-			background-color: $secondary-color;
+			background-color: $light-white;
 		}
 	}
 }
@@ -57,6 +57,21 @@
 		}
 		&__button {
 			font-size: 1.7rem;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.header {
+		background-image: $blue-gradient, url('../../img/header-big.jpg');
+		&__heading {
+			font-size: 7rem;
+		}
+		&__text {
+			font-size: 2rem;
+		}
+		&__button {
+			font-size: 1.8rem;
 		}
 	}
 }
