@@ -15,4 +15,49 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+.navigation__burger {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 1em;
+  background: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.navigation__burger:focus {
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
+
+.navigation__burger-box {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.navigation__burger-box-bars, .navigation__burger-box-bars::before, .navigation__burger-box-bars::after {
+  position: absolute;
+  right: 0;
+  height: 3px;
+  content: '';
+  background-color: red;
+}
+
+.navigation__burger-box-bars {
+  width: 100%;
+}
+
+.navigation__burger-box-bars::after {
+  top: 13px;
+  width: 60%;
+}
+
+.navigation__burger-box-bars::before {
+  top: 27px;
+  width: 30%;
+}
 /*# sourceMappingURL=style.css.map */
