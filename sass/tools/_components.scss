@@ -21,6 +21,21 @@ body {
 	max-width: 1200px;
 }
 
+.section-padding {
+	padding: 6em 2em;
+}
+
+.section-heading {
+	position: relative;
+	margin-bottom: 2em;
+	font-size: 3rem;
+	color: $main-color;
+	letter-spacing: 2px;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+}
+
 .white-block {
 	position: absolute;
 	height: 40px;
@@ -66,5 +81,23 @@ body {
 	&:hover::before {
 		transform: scaleX(1);
 		transform-origin: left;
+	}
+}
+
+@media (min-width: 768px) {
+	.section-heading {
+		font-size: 3.6rem;
+	}
+	.section-padding {
+		padding: 8em 2em;
+	}
+}
+
+@media (min-width: 992px) {
+	.section-heading {
+		font-size: 4.8rem;
+	}
+	.section-padding {
+		padding: 10em 2em;
 	}
 }
