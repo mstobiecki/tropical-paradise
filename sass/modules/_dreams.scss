@@ -37,3 +37,21 @@
 		}
 	}
 }
+
+@media (min-width: 768px) {
+	.dreams {
+		&__box {
+			&-title {
+				font-size: 2rem;
+			}
+			&-text {
+				font-size: 1.5rem;
+			}
+			&-info {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+		}
+	}
+}

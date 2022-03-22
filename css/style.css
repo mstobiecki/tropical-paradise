@@ -386,4 +386,25 @@ body {
     text-align: right;
   }
 }
+
+@media (min-width: 768px) {
+  .dreams__box-title {
+    font-size: 2rem;
+  }
+  .dreams__box-text {
+    font-size: 1.5rem;
+  }
+  .dreams__box-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 /*# sourceMappingURL=style.css.map */
