@@ -407,4 +407,13 @@ body {
             justify-content: center;
   }
 }
+
+@media (min-width: 992px) {
+  .dreams__box-title {
+    font-size: 2.5rem;
+  }
+  .dreams__box-text {
+    font-size: 1.8rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */

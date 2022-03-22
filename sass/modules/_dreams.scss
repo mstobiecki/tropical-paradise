@@ -55,3 +55,16 @@
 		}
 	}
 }
+
+@media (min-width: 992px) {
+	.dreams {
+		&__box {
+			&-title {
+				font-size: 2.5rem;
+			}
+			&-text {
+				font-size: 1.8rem;
+			}
+		}
+	}
+}
