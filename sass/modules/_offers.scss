@@ -1,0 +1,39 @@
+.offers {
+	position: relative;
+	overflow: hidden;
+	@include heroImages('../../img/offer-mini.jpg');
+	.section-heading {
+		color: $pure-white;
+	}
+	&__card {
+		margin: 1em 0;
+		box-shadow: 5px 5px 10px #2e2e2e;
+		background-color: $pure-white;
+		&-image {
+			object-fit: cover;
+			width: 100%;
+		}
+		&-info {
+			padding: 2em;
+			background-color: $pure-white;
+			&-title {
+				margin-bottom: 0.5em;
+				font-size: 2.4rem;
+				font-weight: 300;
+			}
+			&-text {
+				margin: 0.5em;
+				font-size: 1.3rem;
+			}
+			&-button {
+				width: 100%;
+				margin-top: 1em;
+				padding: 0.6em 1.2em;
+				border: none;
+				border-radius: 8px;
+				color: $pure-white;
+				background-color: $main-color;
+			}
+		}
+	}
+}
