@@ -8,7 +8,7 @@
 	height: 75vh;
 	text-align: center;
 	color: $pure-white;
-	@include heroImages('../../img/header-mini.jpg');
+	@include heroImages('../img/header-mini.jpg');
 	background-attachment: scroll;
 	&__heading {
 		margin-bottom: 0.3em;
@@ -63,7 +63,7 @@
 
 @media (min-width: 992px) {
 	.header {
-		background-image: $blue-gradient, url('../../img/header-big.jpg');
+		background-image: $blue-gradient, url('../img/header-big.jpg');
 		&__heading {
 			font-size: 7rem;
 		}

@@ -1,7 +1,7 @@
 .offers {
 	position: relative;
 	overflow: hidden;
-	@include heroImages('../../img/offer-mini.jpg');
+	@include heroImages('../img/offer-mini.jpg');
 	.section-heading {
 		color: $pure-white;
 	}
