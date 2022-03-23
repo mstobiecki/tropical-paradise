@@ -485,4 +485,47 @@ body {
     font-size: 2.2rem;
   }
 }
+
+.islands__card {
+  position: relative;
+  height: 450px;
+  margin: 2em 0;
+  color: #fff;
+  text-align: center;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.islands__card-img {
+  height: 100%;
+  padding: 2em;
+}
+
+.islands__card-img--first {
+  background-image: linear-gradient(45deg, rgba(8, 206, 255, 0.75), rgba(8, 24, 255, 0.75)), url("../img/island1.jpg");
+}
+
+.islands__card-img--second {
+  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("../img/island2.jpg");
+}
+
+.islands__card-img--third {
+  background-image: linear-gradient(45deg, rgba(190, 10, 214, 0.75), rgba(68, 0, 255, 0.75)), url("../img/island3.jpg");
+}
+
+.islands__card-img-title {
+  font-size: 3rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+.islands__card-img-text {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 1.8rem;
+}
+
+.islands__card-img-text i {
+  margin-right: 0.5em;
+}
 /*# sourceMappingURL=style.css.map */
