@@ -98,3 +98,18 @@
 		}
 	}
 }
+
+@media (min-width: 768px) {
+	.islands {
+		&__cards {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+		}
+		&__card {
+			margin: 1em;
+			width: 45%;
+		}
+	}
+}
