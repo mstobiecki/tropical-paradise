@@ -634,4 +634,10 @@ body {
     width: 45%;
   }
 }
+
+@media (min-width: 992px) {
+  .islands__card {
+    width: 30%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
