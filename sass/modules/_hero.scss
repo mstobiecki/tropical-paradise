@@ -20,7 +20,6 @@
 	}
 }
 
-
 @media (min-width: 576px) {
 	.hero {
 		padding: 18em 2em;
@@ -29,6 +28,22 @@
 		}
 		&__text {
 			font-size: 1.8rem;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.hero {
+		padding: 20em 2em;
+		&__heading {
+			font-size: 7rem;
+		}
+		&__text {
+			font-size: 2rem;
+		}
+		&__line {
+			margin: 1em auto;
+			max-width: 60%;
 		}
 	}
 }
