@@ -726,4 +726,13 @@ body {
             justify-content: center;
   }
 }
+
+@media (min-width: 992px) {
+  .offers__card-info-title {
+    font-size: 2.8rem;
+  }
+  .offers__card-info-text {
+    font-size: 1.5rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */

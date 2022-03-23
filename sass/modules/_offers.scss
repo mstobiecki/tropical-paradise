@@ -61,3 +61,18 @@
 		}
 	}
 }
+
+@media (min-width: 992px) {
+	.offers {
+		&__card {
+			&-info {
+				&-title {
+					font-size: 2.8rem;
+				}
+				&-text {
+					font-size: 1.5rem;
+				}
+			}
+		}
+	}
+}
