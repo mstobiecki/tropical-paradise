@@ -10,7 +10,8 @@
         "../sass/modules/_navigation.scss",
         "../sass/modules/_dreams.scss",
         "../sass/modules/_hero.scss",
-        "../sass/modules/_islands.scss"
+        "../sass/modules/_islands.scss",
+        "../sass/modules/_offers.scss"
     ],
     "names": [],
     "file": "style.css"
