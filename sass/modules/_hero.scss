@@ -19,3 +19,16 @@
 		font-size: 1.5rem;
 	}
 }
+
+
+@media (min-width: 576px) {
+	.hero {
+		padding: 18em 2em;
+		&__heading {
+			font-size: 6rem;
+		}
+		&__text {
+			font-size: 1.8rem;
+		}
+	}
+}
