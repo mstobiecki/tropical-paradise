@@ -416,4 +416,32 @@ body {
     font-size: 1.8rem;
   }
 }
+
+.hero {
+  position: relative;
+  padding: 15em 2em;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("../../img/hero-mini.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero__heading {
+  margin-bottom: 0.5em;
+  font-weight: 300;
+  font-size: 4rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+.hero__line {
+  margin: 1em;
+  color: #fff;
+}
+
+.hero__text {
+  font-size: 1.5rem;
+}
 /*# sourceMappingURL=style.css.map */

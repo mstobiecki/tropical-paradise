@@ -1,0 +1,21 @@
+.hero {
+	position: relative;
+	padding: 15em 2em;
+	overflow: hidden;
+	text-align: center;
+	color: $pure-white;
+	@include heroImages('../../img/hero-mini.jpg');
+	&__heading {
+		margin-bottom: 0.5em;
+		font-weight: 300;
+		font-size: 4rem;
+		font-family: 'Dancing Script', cursive;
+	}
+	&__line {
+		margin: 1em;
+		color: $pure-white;
+	}
+	&__text {
+		font-size: 1.5rem;
+	}
+}
