@@ -773,4 +773,16 @@ body {
 .reviews__box-author {
   font-size: 1.4rem;
 }
+
+@media (min-width: 576px) {
+  .reviews__box-quote {
+    font-size: 2rem;
+  }
+  .reviews__box-text {
+    font-size: 1.5rem;
+  }
+  .reviews__box-author {
+    font-size: 1.5rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */

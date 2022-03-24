@@ -30,3 +30,19 @@
 		}
 	}
 }
+
+@media (min-width: 576px) {
+	.reviews {
+		&__box {
+			&-quote {
+				font-size: 2rem;
+			}
+			&-text {
+				font-size: 1.5rem;
+			}
+			&-author {
+				font-size: 1.5rem;
+			}
+		}
+	}
+}
