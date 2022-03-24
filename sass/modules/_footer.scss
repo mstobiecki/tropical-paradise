@@ -16,7 +16,7 @@
 		&-link {
 			&-icon {
 				margin-right: 0.5em;
-				font-size: 3rem;
+				font-size: 4rem;
 				color: $pure-white;
 			}
 		}
@@ -26,5 +26,33 @@
 		text-align: center;
 		font-size: 1.4rem;
 		color: $pure-white;
+	}
+}
+
+@media (min-width: 768px) {
+	.footer {
+		&__boxes {
+			display: flex;
+			justify-content: space-between;
+		}
+		&__box {
+			margin: 0 auto;
+			&:first-child {
+				width: 50%;
+			}
+			&-desktop {
+				display: block;
+			}
+			&-list {
+				margin-top: 1em;
+				list-style: none;
+				&-link {
+					margin: 0.5em;
+					font-size: 1.5rem;
+					text-decoration: none;
+					color: $pure-white;
+				}
+			}
+		}
 	}
 }
