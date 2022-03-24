@@ -4,7 +4,7 @@
 	overflow: hidden;
 	text-align: center;
 	color: $pure-white;
-	@include heroImages('../../img/hero-mini.jpg');
+	@include heroImages('../img/hero-mini.jpg');
 	&__heading {
 		margin-bottom: 0.5em;
 		font-weight: 300;
@@ -51,7 +51,7 @@
 @media (min-width: 992px) {
 	.hero {
 		padding: 25em 2em;
-		background-image: $blue-gradient, url('../../img/hero-big.jpg');
+		background-image: $blue-gradient, url('../img/hero-big.jpg');
 		&__heading {
 			font-size: 8rem;
 		}
