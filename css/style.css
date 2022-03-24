@@ -837,5 +837,10 @@ body {
   border-radius: 8px;
   background-color: #1755e7;
   color: #fff;
+  cursor: pointer;
+}
+
+.contact__form-button::before {
+  background-color: #164dcc;
 }
 /*# sourceMappingURL=style.css.map */

@@ -30,6 +30,10 @@
 			border-radius: 8px;
 			background-color: $main-color;
 			color: $pure-white;
+			cursor: pointer;
+			&::before {
+				background-color: $secondary-color;
+			}
 		}
 	}
 }
