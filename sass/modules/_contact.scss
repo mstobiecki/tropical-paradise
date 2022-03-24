@@ -1,0 +1,35 @@
+.contact {
+	position: relative;
+	background-color: $light-white;
+	overflow: hidden;
+	&__form {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		&-label {
+			margin: 0.5em 0;
+			font-size: 1.6rem;
+		}
+		&-input {
+			padding: 0.5em 0;
+			font-size: 1.6rem;
+		}
+		&-message {
+			margin-bottom: 2em;
+			height: 150px;
+			resize: vertical;
+		}
+		&-button {
+			display: flex;
+			align-self: flex-end;
+			justify-content: center;
+			width: 20%;
+			padding: 0.5em 1em;
+			font-size: 1.4rem;
+			border: none;
+			border-radius: 8px;
+			background-color: $main-color;
+			color: $pure-white;
+		}
+	}
+}
