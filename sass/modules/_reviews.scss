@@ -1,0 +1,32 @@
+.reviews {
+	&__box {
+		position: relative;
+		margin: 4em 1em;
+		box-shadow: 3px 3px 10px #2e2e2e2e;
+		z-index: 10;
+		&-image {
+			position: absolute;
+			top: -40px;
+			right: 5%;
+			&-face {
+				width: 80px;
+				height: 80px;
+				border-radius: 50px;
+			}
+		}
+		&-info {
+			padding: 6em 3em;
+		}
+		&-quote {
+			font-size: 1.8rem;
+			color: $main-color;
+		}
+		&-text {
+			margin: 1em 0;
+			font-size: 1.4rem;
+		}
+		&-author {
+			font-size: 1.4rem;
+		}
+	}
+}

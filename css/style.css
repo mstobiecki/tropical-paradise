@@ -735,4 +735,42 @@ body {
     font-size: 1.5rem;
   }
 }
+
+.reviews__box {
+  position: relative;
+  margin: 4em 1em;
+  -webkit-box-shadow: 3px 3px 10px #2e2e2e2e;
+          box-shadow: 3px 3px 10px #2e2e2e2e;
+  z-index: 10;
+}
+
+.reviews__box-image {
+  position: absolute;
+  top: -40px;
+  right: 5%;
+}
+
+.reviews__box-image-face {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.reviews__box-info {
+  padding: 6em 3em;
+}
+
+.reviews__box-quote {
+  font-size: 1.8rem;
+  color: #1755e7;
+}
+
+.reviews__box-text {
+  margin: 1em 0;
+  font-size: 1.4rem;
+}
+
+.reviews__box-author {
+  font-size: 1.4rem;
+}
 /*# sourceMappingURL=style.css.map */

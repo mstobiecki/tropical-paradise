@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tropical Paradise</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;700&display=swap"
         rel="stylesheet">
-    <title>Tropical Paradise</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/8c0385f4bb.js" crossorigin="anonymous"></script>
 </head>
@@ -202,7 +203,7 @@
                 <div class="reviews__boxes">
                     <div class="reviews__box">
                         <div class="reviews__box-image">
-                            <img src="./img/rev1.jpg" alt="Zdjęcie Anny Kowalskiej">
+                            <img src="./img/rev1.jpg" alt="Zdjęcie Anny Kowalskiej" class="reviews__box-image-face">
                         </div>
                         <div class="reviews__box-info">
                             <div class="reviews__box-quote"> <i class="fas fa-quote-right"></i> </div>
@@ -211,12 +212,13 @@
                                 ipsum
                                 asperiores maxime adipisci? Consectetur, aliquam consequuntur. Ipsum, natus!
                             </p>
-                            <strong>Anna Kowalska</strong>
+                            <strong class="reviews__box-author">Anna Kowalska</strong>
                         </div>
                     </div>
                     <div class="reviews__box">
                         <div class="reviews__box-image">
-                            <img src="./img/rev2.jpg" alt="Zdjęcie Marcina Wiśniewskiego">
+                            <img src="./img/rev2.jpg" alt="Zdjęcie Marcina Wiśniewskiego"
+                                class="reviews__box-image-face">
                         </div>
                         <div class="reviews__box-info">
                             <div class="reviews__box-quote"> <i class="fas fa-quote-right"></i> </div>
@@ -225,12 +227,12 @@
                                 ipsum
                                 asperiores maxime adipisci? Consectetur, aliquam consequuntur. Ipsum, natus!
                             </p>
-                            <strong>Marcin Wiśniewski</strong>
+                            <strong class="reviews__box-author">Marcin Wiśniewski</strong>
                         </div>
                     </div>
                     <div class="reviews__box">
                         <div class="reviews__box-image">
-                            <img src="./img/rev3.jpg" alt="Zdjęcie Haliny Nelak">
+                            <img src="./img/rev3.jpg" alt="Zdjęcie Haliny Nelak" class="reviews__box-image-face">
                         </div>
                         <div class="reviews__box-info">
                             <div class="reviews__box-quote"> <i class="fas fa-quote-right"></i> </div>
@@ -239,13 +241,17 @@
                                 ipsum
                                 asperiores maxime adipisci? Consectetur, aliquam consequuntur. Ipsum, natus!
                             </p>
-                            <strong>Halina Nelak</strong>
+                            <strong class="reviews__box-author">Halina Nelak</strong>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slick.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
