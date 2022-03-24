@@ -811,14 +811,18 @@ body {
 }
 
 .contact__form-input {
-  padding: 0.5em 0;
+  padding: 0.8em;
   font-size: 1.6rem;
+  border: none;
+  border-radius: 8px;
 }
 
 .contact__form-message {
   margin-bottom: 2em;
   height: 150px;
   resize: vertical;
+  border: none;
+  border-radius: 8px;
 }
 
 .contact__form-button {
@@ -831,7 +835,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 20%;
-  padding: 0.5em 1em;
+  padding: 0.6em 1em;
   font-size: 1.4rem;
   border: none;
   border-radius: 8px;
@@ -842,5 +846,40 @@ body {
 
 .contact__form-button::before {
   background-color: #164dcc;
+}
+
+.footer {
+  background-color: #2e2e2e;
+}
+
+.footer__box {
+  padding: 4em 2em;
+  color: #fff;
+}
+
+.footer__box-title {
+  font-size: 2.5rem;
+}
+
+.footer__box-desktop {
+  display: none;
+}
+
+.footer__box-text {
+  margin: 1em 0;
+  font-size: 1.4rem;
+}
+
+.footer__box-link-icon {
+  margin-right: 0.5em;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.footer__bottom-text {
+  padding: 1em;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
